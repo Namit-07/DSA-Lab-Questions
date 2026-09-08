@@ -8,7 +8,7 @@
 // Function to solve Tower of Hanoi puzzle recursively
 void towerOfHanoi(int n, char source, char auxiliary, char destination) 
 { 
-    if (n == 1) // Base case: only one disk to move
+    if (n == 1) // Base case: only one disk to move 
     {
         printf("Move disk 1 from %c to %c\n", source, destination);
         return;
